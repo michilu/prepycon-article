@@ -1,0 +1,6 @@
+syntax: glob
+*~
+bin/
+docs/
+parts/
+.installed.cfg
