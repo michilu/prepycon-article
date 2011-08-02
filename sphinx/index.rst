@@ -6,6 +6,12 @@
 Welcome to PyCon JP 開催前記事's documentation!
 ===============================================
 
+
+注意
+----
+
+基本、ですます調で、テイストやボリュームについては `CodeZine <http://codezine.jp>`_ の他の記事に準ずるようにしてください。
+
 Contents:
 
 .. toctree::
