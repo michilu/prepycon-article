@@ -45,6 +45,11 @@ Keynote
 誰担当?
 
 - Tarek 紹介
+
+.. figure:: /_static/tarek.png
+
+   Tarek Ziade氏
+
 - Keynote で何を話すのか
 
 
@@ -72,6 +77,11 @@ GUI のオーサリングツールを組み込み用途で使用する方法に�
 
 氏はPyCon 2011 Atlanta の `Poster Session <http://us.pycon.org/2011/schedule/lists/posters/>`_ で発表をされたようです。
 
+.. figure:: /_static/sinker.jpg
+   :scale: 40%
+
+   Sinker Li氏
+
 **Hsin-Yi Chen** 氏はUbuntuなどで有名な `Canonical <http://www.canonical.com/>`_ のソフトウェアエンジニアであり、
 `KaLUG <http://kalug.linux.org.tw/>`_ 、
 `HackingThursday <http://www.hackingthursday.org/>`_ 、
@@ -80,6 +90,11 @@ GUI のオーサリングツールを組み込み用途で使用する方法に�
 今回は
 `Object-oriented usage of using command line tools in Python <http://2011.pycon.jp/program/talks#object-oriented-usage-of-using-command-line-tools-in-python>`_ というセッションで
 `ucltip <http://pypi.python.org/pypi/ucltip>`_ というオブジェクト指向のコマンドラインツールを作成するためのライブラリとその使用方法について発表します。
+
+.. figure:: /_static/hychen.jpg
+   :scale: 50%
+
+   Hsin-Yi Chen氏
 
 PyCon JP に参加して海外の開発者とも積極的に交流してみてください。
 
