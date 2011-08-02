@@ -6,6 +6,7 @@
 Welcome to PyCon JP 開催前記事's documentation!
 ===============================================
 
+.. image:: /_static/logo.png
 
 注意
 ----
