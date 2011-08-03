@@ -57,7 +57,7 @@ Keynote
 ==============
 プログラム担当の鈴木たかのり(`@takanory <http://twitter.com/takanory>`_)です。
 
-PyCon JP 2011 の `Program <http://2011.pycon.jp/program>`_ では3つのトラックが並行で進行します(一部4つ並行する時間帯もあります)。ここでは、英語トラック(English Track)について紹介します。
+PyCon JP 2011 の `Program <http://2011.pycon.jp/program>`_ では3つのトラックが並行で進行します(一部4つ並行する時間帯もあります)。ここでは、英語トラック(English Track)とその中で発表されるセッションについて紹介します。
 
 なんで英語なの?
 ---------------
@@ -96,7 +96,20 @@ GUI のオーサリングツールを組み込み用途で使用する方法に�
 
    Hsin-Yi Chen氏
 
-PyCon JP に参加して海外の開発者とも積極的に交流してみてください。
+PyCon JP に参加して彼らのような海外の開発者とも積極的に交流してみてください。
+
+その他の英語セッション
+----------------------
+他にも以下のセッションが英語での発表となります。
+
+一つめは日本在住で英語も日本語も堪能なIan Lewis氏による
+`Asyncronous Python Programming <http://2011.pycon.jp/program/talks#asyncronous-python-programming>`_ です。Pythonでの非同期プログラミングの入門編といった感じで発表する予定です。
+
+もう一つは、シルバースポンサーでもある
+`株式会社Nexedi <http://www.nexedi.co.jp/>`_ の社長 Yusei Tahara氏による
+`SlapOS, Python powered open source cloud computing system <http://2011.pycon.jp/program/talks#slapos-python-powered-open-source-cloud-computing-system>`_
+です。
+`SlapOS <http://www.slapos.org/>`_ クラウドコンピューティングシステムについてデモを交えて発表されます。
 
 プログラム紹介: Pythonチュートリアル
 ====================================
