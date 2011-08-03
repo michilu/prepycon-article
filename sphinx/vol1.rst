@@ -42,16 +42,15 @@ PyCon とは、Pythonユーザが集まり、PythonやPythonを使ったソフ�
 Keynote
 =======
 
-誰担当?
-
-- Tarek 紹介
+- Keynote で何を話すのか
 
 .. figure:: /_static/tarek.png
 
    Tarek Ziade氏
 
-- Keynote で何を話すのか
+Tarek Ziadé氏はフランス、ディジョン市在住のPython開発者です。現在はMozilla コーポレーションのServicesチームに所属し、Python開発者として活躍しています。 フランスではAfpyというPythonユーザーズグループを設立し、各種雑誌でPythonに ついての記事を書いています。日本ではアスキー・メディアワークスが出版している 『 エキスパートPythonプログラミング 』の原著者であり、"Petit guide à l'usage du developpeur agile" という書籍（これはフランス語版のみ）を出版しています。
 
+Pythonのコア開発者として新しいパッケージング基準（PEP 345, 376, 386, 381）に取り組んでおり、その実装としてDistutil2, PyPI, Distributeの開発に携わっています。 Python Insider (日本語訳 もあります)というBlogでも記事の執筆を行っています。
 
 英語トラック
 ==============
