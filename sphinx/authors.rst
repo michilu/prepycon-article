@@ -31,7 +31,7 @@
 
 寺田 学
 
-    .. image:: /_static/terada.jpg
+    .. image:: /_static/terada.JPG
 
     PyCon JP 2011 座長。昨年シンガポールで行われたPyCon APにて、日本から参加していたメンバーと共に同等のイベントを日本でもと立ち上がった一人。
     普段は、(株)CMSコミュニケーションズ(http://www.cmscom.jp)代表とし、Zope/Ploneの専門家として、大学系・公共系などのCMSコンサルティングや構築を手がけている。Ploneコアコミッターとして、Plone4の日本語検索部分を担当した。その他にもオープンソース各種プロダクトを公開している。また、国内では Plone Users Group Japan にて中心的に活動を行っている。
