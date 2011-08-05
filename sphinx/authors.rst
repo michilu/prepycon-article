@@ -38,3 +38,20 @@
     事業以外に、一橋大学大学院で客員准教授として「デジタルメディアの実践」を担当し授業にPloneを取り入れている。共著書に、「10日でおぼえる Python 入門教室」(翔泳社)、「FFmpegで作る動画共有サイト」(毎日コミュニケーションズ)、他がある。
 
     Twitter: `@terapyon <http://twitter.com/#!/terapyon>`_
+
+
+遠藤 隆尚
+
+    .. image:: /_static/endoh.jpg
+
+    Vettl Inc. CTO
+    
+    地ビール・サンクトガーレン湘南ゴールドとサーフィンのために日々働く。
+
+    Google App Engineなどで全般的にPythonを使うかたわら、Erlang製のWebSocket Server `Shirasu.ws`_ を開発しています。
+
+    Twitter: `@MiCHiLU <http://twitter.com/#!/MiCHiLU>`_
+    ブログ: `湘南ぱいそん <http://d.hatena.ne.jp/MiCHiLU/>`_
+
+.. _`Shirasu.ws`: http://code.google.com/p/shirasu/
+
