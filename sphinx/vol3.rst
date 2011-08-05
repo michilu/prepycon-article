@@ -25,7 +25,7 @@ Party担当の畠です。
 
 PyCon JP Sprint
 ===============
-会場担当の原(`@maktkg <http://twitter.com/mactkg>`_)です。
+会場担当の原(`@mactkg <http://twitter.com/mactkg>`_)です。
 
 PyCon JPの翌日に開催される **Sprint** について紹介します。
 
