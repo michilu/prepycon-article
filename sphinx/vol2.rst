@@ -8,58 +8,47 @@ PyCon JP 2011 プログラム紹介第二回となる今回は、皆様から応
 
 紹介プログラムの候補
 
-- `Pythonによる日本語自然言語処理 <http://2011.pycon.jp/program/talks#id6>`_
-- `Pythonで1万台のiPhoneを管理する <http://2011.pycon.jp/program/talks#python1iphone>`_
-- `http と telnet をつなぐ何か <http://2011.pycon.jp/program/talks#http-telnet>`_
-- `Webフォームウィジェットツールキットを総括する <http://2011.pycon.jp/program/talks#web>`_
-- `Python エンジニアの作り方 <http://2011.pycon.jp/program/talks#python>`_
-- `Pythonで創るソーシャルゲームの未来 <http://2011.pycon.jp/program/talks#gold-sponser-session-python>`_
-- `Python と MongoDB でWEB開発 <http://2011.pycon.jp/program/talks#python-mongodb-web>`_
-- `Tuning Python Code <http://2011.pycon.jp/program/talks#tuning-python-code>`_
-- `PyQtではじめるGUIプログラミング <http://2011.pycon.jp/program/talks#pyqtgui>`_
-- `Pythonを使った次世代組み込みシステムの姿 <http://2011.pycon.jp/program/talks#id5>`_
+Pythonによる日本語自然言語処理の紹介
+====================================
+プログラム担当の鈴木たかのりです。
 
-プログラム抜粋1
-===============
-プログラム担当
+ここでは事前に行われた `PyCon JP 2011 投票 <http://2011.pyconjp.appspot.com/cfp>`_ で最も得票数の多かったセッション「
+`Pythonによる日本語自然言語処理 <http://2011.pycon.jp/program/talks#id6>`_
+」について紹介します。
+
+このセッションではオライリー・ジャパンが出版している『入門 自然言語処理』の査読協力を行うなど、自然言語処理のエキスパートです。このセッションでは
+`NLTK <http://www.nltk.org/>`_ (Natural Language Toolkit)というPythonベースの自然言語処理ライブラリを使用した日本語処理について導入部分を解説します。
+
+スピーカーの奥野 陽(nokuno)さんから以下のような意気込みのコメントをいただきました。
+
+  自然言語処理でよく使われている言語はPythonと言われています(http://j.mp/pVFIFP )．難しくなりすぎず，かといって表面的なところで終わらないようNLPのエッセンスを伝えたいと思いますので，よろしくお願いします．
+
+  http://twitter.com/#!/nokuno/statuses/99350486662135808
+
+形態素解析などに興味のある方は、是非本セッションを聞きに行ってみてはいかがでしょうか?
+
+Python チュートリアルの紹介
+===========================
+プログラム担当の遠藤です。
+
+ここでは私がスピーカーを務めるセッション「
+`Python チュートリアル <http://2011.pycon.jp/program/talks#id3>`_
+」について紹介します。
 
 - 発表者から一言
-- プログラム担当から一言
 
-
-プログラム抜粋2
+Lightning Talks
 ===============
+技術系のカンファレンスでは定番となっている Lightning Talks ですが、当然 PyCon JP でもプログラムの最後に行われます。
 
-プログラム担当
+念のため説明すると、Lightning Talks は5分といった短い時間で行われるプレゼンテーションを連続して行うというものです。
 
-- 発表者から一言
-- プログラム担当から一言
+PyCon JP の Lightning Talks では、1時間の枠を用意して10名の発表者に発表をしてもらいます。すでに発表の枠はいっぱいとなっており、残念ながら当日の LT 参加枠を用意することができなくなってしまいました。申し訳ありません。
 
-
-Lightning Talk
-==============
-
-- LT 概要
-- 当日参加枠ありません
-- LT 内容は当日までヒ・ミ・ツ♥
-
-
-Office Hour
-===========
-
-杵渕担当
-
-- Office Hour って何?
-- 何やるの?
-
-  - Guido 出るよ!
-
-- Guido 以外の人は?
-
+「こんなこと皆の前でに話してみたい」と思っていた人は、次に説明する Open Space を活用してみてはいかがでしょうか?
 
 Open Space
 ==========
-プログラム担当の鈴木たかのり(`@takanory <http://twitter.com/takanory>`_)です。
 
 `Program <http://2011.pycon.jp/program>`_ のページを見ると Main/English/Sub Track の横に **Open Space** という列があると思います。ここでは午後の第4のトラックとも言える Open Spase について紹介します。
 
@@ -89,6 +78,19 @@ Open Space への参加は自由です。当日Open Spaceのホワイトボー�
 主催になれるの?
 ---------------
 枠が空いている限りは誰でも主催者になれます。当日ホワイトボードを用意しますので、Open Spaceでやりたいことのタイトルを書いてください。「○○ユーザー会を開きたい」みたいな内容や、自分が気になっているプロダクトやサービスの名前書いて、同じ興味を持っている人と話しをするということも有効なOpen Spaceの使い方かも知れません。
+
+
+Office Hour
+===========
+
+杵渕担当
+
+- Office Hour って何?
+- 何やるの?
+
+  - Guido 出るよ!
+
+- Guido 以外の人は?
 
 
 次回
