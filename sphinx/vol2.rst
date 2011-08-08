@@ -101,7 +101,7 @@ Office Hour 担当の杵渕です。
 今回の PyCon JP 2011 のテーマは 「出会い系 Python」("meet up python") です。
 このテーマに合わせた内容として、通常の発表以外にも Open Space、Office Hour、Sprint が開かれています。
 
-ここではその中の Office Hour について解説します。
+ここではその中の Office Hour について紹介します。
 
 Office Hour って?
 -----------------
@@ -111,8 +111,8 @@ Office Hour という用語は元々は大学で使われていたようです�
 
 誰と話せるの?
 -------------
-PyCon JP 2011 の Office Hour では講師役に、各セッションの発表者や普段から Python の勉強会を主催しているような方々に依頼を掛けているところです。
-決定し次第 PyCon JP 2011 の `Program ページ <http://2011.pycon.jp/program>`_ に情報を掲載していきます。
+PyCon JP 2011 の Office Hour では講師役に、各セッションの発表者や Python の勉強会を主催している方々に依頼を掛けているところです。
+決定し次第 PyCon JP 2011 の `Program ページ <http://2011.pycon.jp/program>`_ に講師役の人の情報を掲載していきます。
 
 場所は会場の廊下に 1 ブース設けて行う予定です。ホワイトボードの前でお茶とお菓子を楽しみながら、雑談のような雰囲気で講師役の人とお話を楽しんでください。
 
