@@ -96,7 +96,7 @@ Open Space への参加は自由です。当日Open Spaceのホワイトボー�
 
 Office Hour
 ===========
-Office Hour 担当の杵渕です。
+Office Hour 担当の杵渕朋彦です。
 
 今回の PyCon JP 2011 のテーマは 「出会い系 Python」("meet up python") です。
 このテーマに合わせた内容として、通常の発表以外にも Open Space、Office Hour、Sprint が開かれています。
