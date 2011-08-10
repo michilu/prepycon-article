@@ -67,3 +67,16 @@
    主に言語そのものや理論に興味があり、 `CPython 3.2 ソースコードリーディング <http://partake.in/events/752c6759-83b0-4b96-a1ee-95e220977990>`_ や `スタート代数 <http://partake.in/events/989bf10a-d5f0-4fcc-ba1f-f152fe2f7072>`_ を開いている。
 
    Twitter: `@cocoatomo <https://twitter.com/#!/cocoatomo>`_
+
+原 健太(ハラ ケンタ)
+
+    .. image:: /_static/mactkg.jpg
+
+    東京工業大学附属科学技術高等学校 情報システム科
+
+    しがない情報科高校生。
+
+    Twitter: `@mactkg <http://twitter.com/#!/mactkg/>`_
+    ブログ: `俺たちに明日はない <http://d.hatena.ne.jp/mactkg/>`_
+
+
