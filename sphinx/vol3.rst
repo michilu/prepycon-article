@@ -83,7 +83,6 @@ PyCon JPの翌日に開催される **Sprint** について紹介します。
 PyCon JP Sprintって何？
 -----------------------
 `PyCon JP <http://2011.pycon.jp/>`_ では 出会い系Python をスローガンに、参加者の交流しやすいイベントを目指して開催します。その一環として、短期集中型の開発イベント、  `PyCon JP Sprint <http://2011.pycon.jp/program/sprints>`_ を開催します！
-.. このPyCon JP Sprintでは、スポンサーとしてRed Bull Japan様に支援していただきます。飲み物の提供などもありますのでお楽しみに。
 
 開催概要は以下の通りです。
 
