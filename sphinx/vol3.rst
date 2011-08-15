@@ -58,21 +58,28 @@ guidebookapp
 - guidebookapp って?
 - どうやって使うの?
 
-PyCon Party
-===========
+PyCon JP Party
+==============
 広報担当兼Party担当の畠です。
 
-- どこでやる?
+PyCon JP の終了後に場所を隣駅の天王洲アイルに移して、 `PyCon JP Party <http://2011.pycon.jp/audience/party>`_
+を開催します。
 
 .. figure:: /_static/party.jpg
    :alt: Party 会場の Finn McCool's 天王洲アイル
-   :scale: 25%
+   :scale: 10%
 
    Party 会場の Finn McCool's 天王洲アイル
 
-- 申し込み方法は?
-- いくらかかる?
-- じつは当日PyCon JP Partyスペシャルカクテルがあります
+会場は天王洲アイルにあるアイリッシュパブの `Finn McCool's <http://r.gnavi.co.jp/ga5n901/>`_ 。参加費は5,000円です。
+基調講演を行うtreakをはじめ様々な方との出会いを促進するようスタンディング形式です。
+
+当日はPyCon JP Partyスペシャルカクテルを用意。
+他にも盛り上がったり出会いを促進するような仕掛けが満載です。
+スタッフ一同気軽な雰囲気作りを心がけますので、リラックスして楽しんでください！
+
+申し込みと詳しい内容については `こちら <http://2011.pycon.jp/audience/party>`_ 。まだ募集していますので、申し込みお待ちしています。
+
 
 PyCon JP Sprint
 ===============

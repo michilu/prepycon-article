@@ -80,3 +80,15 @@
     ブログ: `俺たちに明日はない <http://d.hatena.ne.jp/mactkg/>`_
 
 
+畠 弥峰(ハタ ヒロタカ)
+
+    .. image:: /_static/flagboy.png
+
+   普通のプログラマ。業務で5年近くPythonを使用中で、ここ一年ちょっとはPython/Djangoでソーシャルゲームを作っている。
+
+   リードエンジニアとしてGREEで90万超のユーザに遊ばれている「任侠道」の制作に関与。
+
+   趣味は麻雀・カードゲーム等。趣味を生かし、カードゲームサイトの構築にも携わっている。
+
+   Twitter: `@flag_boy <https://twitter.com/#!/flag_boy>`_
+
