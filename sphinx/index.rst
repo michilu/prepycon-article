@@ -21,6 +21,7 @@ Contents:
    vol1
    vol2
    vol3
+   spescial
    authors
 
 Indices and tables
