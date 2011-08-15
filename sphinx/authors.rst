@@ -79,4 +79,16 @@
     Twitter: `@mactkg <http://twitter.com/#!/mactkg/>`_
     ブログ: `俺たちに明日はない <http://d.hatena.ne.jp/mactkg/>`_
 
+池 徹(イケ トオル)
 
+    .. image:: /_static/rokujyouhitoma.jpg
+
+    新米Pythonプログラマ。
+
+    最近のお仕事はもっぱら、ウェブサービスのユーザーエクスペリエンス関連。
+    実際はHTML4.01とCSS2、画像の切り出し作業。
+    Pythonとの出会いは外界から閉ざされた開発ルームでたまたまサーバに置いてあった `ActivePython <http://www.activestate.com/activepython>`_ をこっそり触ったことからはじまる。
+    所属は Python温泉系、 `Sphinx-Users.jp <http://sphinx-users.jp/>`_ 、 `pypy-ja <https://groups.google.com/forum/#!forum/pypy-ja>`_
+
+    Twitter: `@rokujyouhitoma <http://twitter.com/#!/rokujyouhitoma/>`_
+    ブログ: `rokujyouhitomaの日記 <http://d.hatena.ne.jp/rokujyouhitoma/>`_
