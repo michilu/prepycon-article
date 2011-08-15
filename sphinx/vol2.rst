@@ -14,7 +14,7 @@ Pythonによる日本語自然言語処理
 `Pythonによる日本語自然言語処理 <http://2011.pycon.jp/program/talks#id6>`_
 」について紹介します。
 
-このセッションではオライリー・ジャパンが出版している『入門 自然言語処理』の査読協力を行うなど、自然言語処理のエキスパートです。このセッションでは
+このセッションのスピーカーはオライリー・ジャパンが出版している『入門 自然言語処理』の査読協力を行うなど、自然言語処理のエキスパートです。このセッションでは
 `NLTK <http://www.nltk.org/>`_ (Natural Language Toolkit)というPythonベースの自然言語処理ライブラリを使用した日本語処理について導入部分を解説します。
 
 スピーカーの奥野 陽(nokuno)さんから以下のような意気込みのコメントをいただきました。
@@ -64,7 +64,7 @@ PyCon JP では Program 全体の一番最後に、1時間の枠を用意して 
 Open Space
 ==========
 
-`Program <http://2011.pycon.jp/program>`_ のページを見ると Main Track/English Track/Sub Track の横に **Open Space** という列があると思います。ここでは午後の第4のトラックとも言える Open Spase について紹介します。
+`Program <http://2011.pycon.jp/program>`_ のページを見ると Main Track/English Track/Sub Track の横に **Open Space** という列があると思います。ここでは午後の第4のトラックとも言える Open Space について紹介します。
 
 .. figure:: /_static/open-space-whiteboard.jpg
    :scale: 25%
