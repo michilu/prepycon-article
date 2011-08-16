@@ -97,12 +97,14 @@
 
    .. image:: /_static/rokujyouhitoma.jpg
 
-   新米Pythonプログラマ。
+   雑食ソフトウェアエンジニア
 
-   最近のお仕事はもっぱら、ウェブサービスのユーザーエクスペリエンス関連。
-   実際はHTML4.01とCSS2、画像の切り出し作業。
+   教育研修コンサルタント、システムインテグレータを経て、現在はオーストラリアの企業から忍者の称号を授かりソフトウェアエンジニアとして働く。
+   2011年の初夏にEuroPythonに行って以来、PyPyにのめり込み、ついには日本コミュニティ `pypy-ja <https://groups.google.com/forum/#!forum/pypy-ja>`_ の立ち上げを模索中。
    Pythonとの出会いは外界から閉ざされた開発ルームでたまたまサーバに置いてあった `ActivePython <http://www.activestate.com/activepython>`_ をこっそり触ったことからはじまる。
-   所属は Python温泉系、 `Sphinx-Users.jp <http://sphinx-users.jp/>`_ 、 `pypy-ja <https://groups.google.com/forum/#!forum/pypy-ja>`_
+   好きなプログラミング言語は、Scheme、JavaScript、Python。最近はRubyとIo、Erlangに興味を持つ。
 
    Twitter: `@rokujyouhitoma <http://twitter.com/#!/rokujyouhitoma/>`_
    ブログ: `rokujyouhitomaの日記 <http://d.hatena.ne.jp/rokujyouhitoma/>`_
+   サイト: `rokujyouhitoma.com <http://rokujyouhitoma.com>`_
+   所属: `Remember The Milk <https://www.rememberthemilk.com/about/>`_ 、Python温泉系、 `Sphinx-Users.jp <http://sphinx-users.jp/>`_ 、 `pypy-ja <https://groups.google.com/forum/#!forum/pypy-ja>`_ 、 `java-ja <http://java-ja.yoshiori.org/>`_ 、 `若手IT勉強会 <http://www7.atwiki.jp/young-study/>`_
