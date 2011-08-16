@@ -49,15 +49,69 @@ Coffee Break は Snack&Beverage Sponsor である `株式会社デジタルガ�
     会場となる大学では、学食以外の教室での食事はできません。昼食・Coffee Break ともに学食に移動して摂っていただくようお願いします。
 
 
-guidebookapp
-============
+ガイドブックアプリを使いこなそう！
+==================================
 
-遠藤担当?
-
+PyCon JP 2011では、iOS/Android向けのスマートフォン向けにガイドブックのアプリケーションを用意しています。
 `Guidebook: Simple Mobile Guides <http://guidebookapp.com/>`_
+このガイドブックアプリでは、全セッションのスケジュールや会場マップを閲覧することができ、気になるセッションを集めた自分だけのオリジナルスケジュールも簡単に作成できる便利ツールです。
+PyCon JP 2011の参加者であれば無料でアプリケーションを利用できます。
+モバイル向けにもWebベースで同様のアプリケーションを提供しています。 http://m.guidebookapp.com/
 
-- guidebookapp って?
-- どうやって使うの?
+では、アプリケーションのダウンロードからご紹介します。
+
+まずお手持ちのスマートフォンのブラウザで、アプリケーションのダウンロードページ（ http://guidebookapp.com/getit/ ）にアクセスします。
+"Guidebook" アプリケーションのダウンロードへ進みますので、それぞれiTunes App Store、Android Marketからインストールしましょう。
+
+インストールが済んだら、スマートフォンのGuidebookアプリケーションを起動します。
+
+.. figure:: /_static/guidebook/01.jpg
+   :scale: 70%
+
+様々なイベントのガイドを閲覧することができますが、ここではPyCon JP 2011のガイドブックを指定します。
+"Download Guides"の画面下の「Redeem Code」をタップしてRedemption Code「Hma8yBZW」を入力し、PyCon JP 2011のガイドブックをダウンロードしましょう。
+
+.. figure:: /_static/guidebook/02.jpg
+   :scale: 70%
+
+ダウンロードが終わると"Select a Guide"メニューに"PyCon JP 2011"のガイドブックが現れます。
+ガイドブックを選択し"PyCon JO 2011"のメニュー画面を見てみます。
+
+.. figure:: /_static/guidebook/03.jpg
+   :scale: 70%
+
+ガイドブックのメニュー項目は、スポンサー紹介、スケジュール表、会場マップ、フィードバックアンケートと続きます。
+
+では、主な掲載項目と使い方をご紹介していきます。
+
+"Schedule"は、PyCon JP 2011のすべてのセッションを含んだスケジュール表になっています。
+その隣に並ぶ並ぶ"Key Events"、"Office Hour"、"Open Space"、"Sprints"は、目玉になるセッションをカテゴリ別に別掲したものです。
+
+.. figure:: /_static/guidebook/04.jpg
+   :scale: 70%
+
+"Schedule"アイコンをタップすると、セッションが時系列で表示され、さらにセッションをタップすると詳細が表示されます。
+
+.. figure:: /_static/guidebook/05.jpg
+   :scale: 70%
+
+聞いてみたい、または気になるセッションを見つけたら、セッションの詳細画面の下にある「Add to My Events」をタップしていくと自分だけのマイスケジュールを作ることができます。
+
+.. figure:: /_static/guidebook/06.jpg
+   :scale: 70%
+
+メニュー画面に戻りスワイプすると、次のメニューが表示されます。
+
+.. figure:: /_static/guidebook/07.jpg
+   :scale: 70%
+
+"My Events"をタップすると先ほどマークしたセッションが、マイスケジュールとして表示されます。
+
+.. figure:: /_static/guidebook/08.jpg
+   :scale: 70%
+
+タイムテーブルをよく吟味してお気に入りのセッションを見逃さないよう計画を立ててみましょう！
+
 
 PyCon JP Party
 ==============
