@@ -43,7 +43,7 @@ August 19, 2011 4:05 pm
     Tip # 1 -- Use a `PEP 386`_ compatible scheme for your versions
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Tip #1 -- バージョンにあった `PEP 386`_ 互換にする
+Tip #1 -- `PEP 386`_ 準拠のバージョン体系にする
 --------------------------------------------------
 
 ..
@@ -52,7 +52,7 @@ Tip #1 -- バージョンにあった `PEP 386`_ 互換にする
     properly. By using a `PEP 386`_-friendly scheme now, you are making your
     project future-proof !
 
-パッケージ管理のエコシステムにおいて、複数のバージョン管理の仕組みを利用するのは、全く馬鹿げたことです。それは相互運用性を破綻させ、バージョンを適切に管理するツールを書くのが不可能になります。いまは `PEP 386`_ 互換の仕組みを利用することで、あなたのプロジェクトの将来が保証されます！
+パッケージ管理のエコシステムにおいて、複数のバージョン体系が混在しているのは、全く馬鹿げたことです。それは相互運用性を破綻させ、バージョンを適切に管理するツールを書くのが不可能になります。いまは `PEP 386`_ に準拠することで、あなたのプロジェクトの将来が保証されます！
 
 ..
     PyPI already rejects any `Metadata 1.2`_ project that does not comply to this
@@ -60,12 +60,21 @@ Tip #1 -- バージョンにあった `PEP 386`_ 互換にする
     packages yet. But that's going to be the default in Python 3.3 and
     distutils2.
 
-PyPI は、このポリシーに準拠しない全ての `Metadata 1.2`_ プロジェクトを排除しました。おそらく、あなたはこの事実を知らないでしょう。それは Metadata 1.2 のパッケージを作成するツールが全くなかったからです。しかし、このプロジェクトは Python 3.3 と distutils2 において標準になろうとしています。
+PyPI は、このポリシーに準拠しない全ての `Metadata 1.2`_ プロジェクトを排除しました。しかし、これまで Metadata 1.2 対応のパッケージ作成ツールが全くなかったため、この事実は一般にはあまり知られていません。ところが、このプロジェクトは Python 3.3 と distutils2 において標準になろうとしています。
+
+.. warning::
+
+   上記の原文および翻訳に違和感が。 ``PyPI already rejects any Metadata 1.2
+   project`` の1文で言っている「reject」の対象がよくわかりません。
+
+   * PEP386 に違反している Metadata 1.2 対応ツール?
+   * Metadata 1.2 を独自に実装したもの?(後半でツール無い書いてるのでこれは無い)
+   * その他?
 
 ..
     So long "devdevdev123" and "3765-2011-test" versions !
 
-ようやく "devdevdev123" や "3765-2011-test" のバージョンとお別れだね！
+"devdevdev123" や "3765-2011-test" といったバージョン表記とはお別れだね！
 
 ..
     Tip #2 -- try to make setup.py as dumb and simple as possible
@@ -79,28 +88,28 @@ Tip #2 -- できるだけシンプル且つひとまとめに setup.py を作る
     some projects. Remember that setup.py is used by installers for a lot of
     different tasks. Like getting the metadata fields of the project.
 
-**setup.py** は、個々人のビルドシステムではありません。私はいくつかのプロジェクトでおかしなものを目の当たりにしました。インストーラーは、setup.py を様々な作業に利用することに注意してください。例えば、そのプロジェクトのメタデータの項目を取り出すといったことです。
+**setup.py** は、個々人のビルドシステムではありません。私はいくつかのプロジェクトでおかしなものを目の当たりにしました。setup.py はインストーラーから様々な作業のため利用されることに注意してください。例えば、そのプロジェクトのメタデータの項目を取り出すといったことです。
 
 ..
     Here's a simple test: make sure ***"python setup.py -name"*** returns the
     name field without any external dependency, and without calling any function
     or method.
 
-ここで単純なテストをしてみましょう。 **"python setup.py -name"** は、関数やメソッドを全く呼び出さず、さらに外部依存もなく、名前の項目を返すことを確認してください。
+ここで単純なテストをしてみましょう。 **"python setup.py ----name"** は、関数やメソッドを全く呼び出さず、さらに外部依存もなく、名前の項目を返すことを確認してください。
 
 ..
     Remember that *setup.py* is going away in Python 3.3 and distutils2, replaced
     by simple options in ***setup.cfg***. Don't be scared, you will still able to
     do complex tasks.
 
-また *setup.py* は Python 3.3 と distutils2 ではなくなってしまうことも覚えておいてください。そして、setup.py は簡単なオプションで **setup.cfg** に置き換えられます。心配しなくても、依然として複雑な作業もできますからね。
+また *setup.py* は Python 3.3 と distutils2 では不要となり、代わりに **setup.cfg** に置き換えられるようになることを覚えておいてください。でも心配しないで。これまで通りの複雑な作業もできますからね。
 
 ..
     My advice: don't do anything else that feeding ***setup()*** with options in
     there. Put all your build things in another place, and if they need to be
     called by setup.py, make sure they are called only when needed.
 
-私からのアドバイスとして、そこでオプションと共に **setup()** へ渡すものは何もありません。別の場所でビルドする全てのものを置いて、もしそれらのファイルが setup.py から呼び出されるなら、必要なときのみ呼び出されることを確認してください。
+私からのアドバイスとして、今後 **setup()** へ渡すパラメータは何もありません。ビルドする全てのものは別の場所に置いてあっても、もし setup.py から呼び出す必要があれば、そのときのみ呼び出されることになります。
 
 ..
     Tip #3 -- Do not make any assumption about which installer will be used
@@ -115,7 +124,7 @@ Tip #3 -- インストーラーが利用することを前提としない
     it working in both tools. You can always tell the user to do extra steps
     manually if he needs to.
 
-**setup.py** が普通の Python (== distutils) で実行できることを確認してください。もし setuptools や distribute を使っていたとしても、ほとんどの場合、両方のツールで動作するように管理できます。必要なら、ユーザーが手動で追加処理を行う方法もあります。
+**setup.py** が普通の Python (== distutils) で実行できることを確認してください。もし setuptools や distribute を使っている場合でも、ほとんどの場合、両方のツールで動作するよう作成できます。必要なら、ユーザーに必要な追加操作を提示することもできます。
 
 ..
     Forcing the installation of an installer, by using the ***ez_setup*** script
@@ -123,13 +132,13 @@ Tip #3 -- インストーラーが利用することを前提としない
     forcing the end user to use a new installer. If you do this in your setup.py,
     ask first !
 
-ユーザーの確認なく、インスタンスのために **ez_setup** を使用することで、インストーラーによるインストールを強制することは、ユーザーに対してやや不親切です。それは基本的にエンドユーザーに新しいインストーラーの利用を強制しています。もし setup.py の内部でそうしたいなら、最初にユーザーへ問い合わせるようにしてください！
+ユーザーの確認なしに別のインストーラーを強制的にインストールすることは（例えばsetup.py内部で **ez_setup** を呼び出すなど）、ユーザーに対してやや不親切です。これはそれ以降エンドユーザーに新しいインストーラーの利用を強制しています。もしあなたが setup.py の内部で同じようなことを行いたいなら、最初にユーザーへ問い合わせるようにしてください！
 
 ..
     Or simply tell the user "This project only works with the XXX installer --
     install it if you want. Aborting."
 
-もしくは、単純にユーザーへ次のように伝えてください。「このプロジェクトは XXX インストーラーでのみ動作します。必要に応じてインストールするか中断してください。」
+もしくは、シンプルにユーザーへ次のように伝えてください。「このプロジェクトは XXX インストーラーでのみ動作します。必要に応じてインストールするか中断してください。」
 
 ..
     Tip #4 -- Do not release unstable releases at pypi
@@ -145,7 +154,7 @@ Tip #4 -- pypi へ不安定版 (unstable) をリリースしない
     decide which one is the "latest". The only tool out there that's smart about
     it is zc.buildout.
 
-私たちのインストーラーは、PyPI 上でプロジェクトを取得するように要求したときに、 *まだ* 安定板リリースを適切に選択できません。それは PyPI のビルド方法でもあります。全てのプロジェクトは、リリースした全てのディレクトリをもっています。そして、インストーラーに依存する形で、どれが "最新" であるかを決定します。PyPI の外側でそういったバージョンを管理する唯一の優れたツールが zc.buildout です。
+私たちのインストーラーはどれも -*まだ*- 十分にスマートな方法でPyPI上にあるプロジェクトの安定版リリースを認識して取得する事が出来ません。その理由は PyPI の作りにも関係しています。全てのプロジェクトは、ディレクトリ別に全てのリリース物をもっており、インストーラーが各リリースのどれが "最新" であるかを判断します。様々なインストーラの中で唯一、安定版かどうかをちゃんと判定しているのが zc.buildout です。
 
 ..
     So when you push an alpha release or a rc release at PyPI, it's going to land
@@ -154,13 +163,13 @@ Tip #4 -- pypi へ不安定版 (unstable) をリリースしない
     release go. So do not make assumptions about how your users are updating your
     project.
 
-従って、PyPI 上でアルファリリースや RC リリースを行うとき、そういったリリースパッケージは、そのパッケージの機能を更新する仕組みがある場合を除いて、PyPI からユーザー環境へインストールされます。また、単純に PyPI は安定版リリースが置かれる場所だという前提があります。そのため、ユーザーがパッケージを更新する方法について前提条件を設けないようにしてください。
+こういった理由により、アルファ版や RC 版を PyPI に置いた場合、そのパッケージの機能を更新する仕組みがある場合を除いて、PyPI からユーザー環境へインストールされてしまいます。あるいは、単純に PyPI は安定版リリースが置かれる場所だという前提になっています。そのため、ユーザーがパッケージを更新する方法について前提条件を設けないようにしてください。
 
 ..
     Prefer another explicit channel for your beta testers. All installers know
     how to install from any url or directory.
 
-ベータテスター向けには、明確に分けた別チャンネルを使ってください。全てのインストーラーは、任意の URL やディレクトリからインストールする方法を知っています。
+ベータテスター向けには、明確に分けた別のインストール手順を提示してください。全てのインストーラーは、任意の URL やディレクトリからインストールする機能を備えています。
 
 ..
     Tip #5 -- Be cautious about your data files
@@ -186,7 +195,7 @@ Distutils や Distribute または Python そのものは、ドキュメント�
     or module that reads them. That'll help the downstream maintainers to handle
     your project.
 
-そう、それはおかしいです。私たちは、この問題を Python 3.3 で修正しました。しかし、この問題を解決できたとしても、最も移植性の高い方法として、データファイルを Python モジュールとして扱う人が多いでしょう。そこで、できることは、データファイルとそういったファイルを読み込む関数またはモジュールの操作方法を分かりやすくドキュメントにまとめることです。それがあなたのプロジェクトをメンテナンスしてくれる、ダウンストリームのメンテナたちを助けることになります。
+そう、それはおかしな事です。私たちは、この問題を Python 3.3 で修正しました。しかし、この問題を解決できたとしても、最も移植性の高い方法として、データファイルを Python モジュールとして扱う人が多いでしょう。そこで、できることは、データファイルとそういったファイルを読み込む関数またはモジュールの操作方法を分かりやすくドキュメントにまとめることです。それがあなたのプロジェクトをメンテナンスしてくれる、ダウンストリームのメンテナたちを助けることになります。
 
 .. _Fetchez le Python: http://tarekziade.wordpress.com/
 .. _Python プロジェクトをパッケージングする5つの Tips: http://tarekziade.wordpress.com/2011/08/19/5-tips-for-packaging-your-python-projects/
