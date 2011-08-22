@@ -23,6 +23,7 @@ Contents:
    vol3
    special
    authors
+   5-tips-for-packaging-your-python-projects
 
 Indices and tables
 ==================

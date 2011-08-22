@@ -2,8 +2,7 @@
 `Fetchez le Python`_
 ====================
 
-.. image:: http://1.gravatar.com/blavatar/107485281a5c5ceea5df5c78be3fd0d
-    5?s=48&ts=1313810564
+.. image:: http://1.gravatar.com/blavatar/107485281a5c5ceea5df5c78be3fd0d5?s=48&ts=1313810564
 
 August 19, 2011 4:05 pm
 
@@ -11,15 +10,19 @@ August 19, 2011 4:05 pm
     `5 tips for packaging your Python projects`_
     =============================================
 
-`Python プロジェクトをパッケージングする5つの Tips`_
-=====================================================
+Python プロジェクトをパッケージングする5つの Tips
+=================================================
+
+  この文書はTarekが自身のブログ `Fetchez le Python`_ に書いたものを森本さんが訳したものだよ。みたいな説明文を追加
+
+  原文: `5 tips for packaging your Python projects <http://tarekziade.wordpress.com/2011/08/19/5-tips-for-packaging-your-python-projects/>`_
 
 ..
     Next week I am keynoting at `Pycon Japan`_, and one thing I will talk about
     is packaging of course. And in particular: what advice can I give my audience
     on how to package Python projects ***today*** ?
 
-来週、私は `Pycon Japan`_ で基調講演を行います。そこで講演する話題の1つは、当然 packaging に関するものです。具体的に言うと、 **昨今** の Python プロジェクトをパッケージングするにあたって、参加者の方々へ私からどんなアドバイスをできるだろうか？
+来週、私は `PyCon JP`_ で基調講演を行います。そこで講演する話題の1つは、当然 packaging に関するものです。具体的に言うと、 **昨今** の Python プロジェクトをパッケージングするにあたって、参加者の方々へ私からどんなアドバイスをできるだろうか？
 
 ..
     This is a hard task, because we are in some kind of transitional state.
@@ -31,7 +34,7 @@ August 19, 2011 4:05 pm
     dependent on the tools we did not release yet -- that's another part in my
     keynote.
 
-とにかく、私はアドバイスのリストを書き出しました。またリリースしなかったツールに関する内容は削除しました。それは私の基調講演の別の話題になります。
+とにかく、私はアドバイスのリストを書き出しました。またリリースしなかったツールに関する内容は削除しました。それは私の基調講演の別の話題になる予定です。
 
 ..
     Here's a list. Most of them are not controversial. If you see something
@@ -95,7 +98,7 @@ Tip #2 -- できるだけシンプル且つひとまとめに setup.py を作る
     name field without any external dependency, and without calling any function
     or method.
 
-ここで単純なテストをしてみましょう。 **"python setup.py ----name"** は、関数やメソッドを全く呼び出さず、さらに外部依存もなく、名前の項目を返すことを確認してください。
+ここで単純なテストをしてみましょう。 " ``python setup.py --name`` " は、関数やメソッドを全く呼び出さず、さらに外部依存もなく、名前の項目を返すことを確認してください。
 
 ..
     Remember that *setup.py* is going away in Python 3.3 and distutils2, replaced
@@ -154,7 +157,7 @@ Tip #4 -- pypi へ不安定版 (unstable) をリリースしない
     decide which one is the "latest". The only tool out there that's smart about
     it is zc.buildout.
 
-私たちのインストーラーはどれも -*まだ*- 十分にスマートな方法でPyPI上にあるプロジェクトの安定版リリースを認識して取得する事が出来ません。その理由は PyPI の作りにも関係しています。全てのプロジェクトは、ディレクトリ別に全てのリリース物をもっており、インストーラーが各リリースのどれが "最新" であるかを判断します。様々なインストーラの中で唯一、安定版かどうかをちゃんと判定しているのが zc.buildout です。
+私たちのインストーラーはどれも -*まだ*- 十分にスマートな方法でPyPI上にあるプロジェクトの安定版リリースを認識して取得する事が出来ません。その理由は PyPI の作りにも関係しています。全てのプロジェクトは、ディレクトリ別に全てのリリースファイルをもっており、インストーラーが各リリースのどれが "最新" であるかを判断します。様々なインストーラの中で唯一、安定版かどうかをちゃんと判定しているのが zc.buildout です。
 
 ..
     So when you push an alpha release or a rc release at PyPI, it's going to land
@@ -195,10 +198,10 @@ Distutils や Distribute または Python そのものは、ドキュメント�
     or module that reads them. That'll help the downstream maintainers to handle
     your project.
 
-そう、それはおかしな事です。私たちは、この問題を Python 3.3 で修正しました。しかし、この問題を解決できたとしても、最も移植性の高い方法として、データファイルを Python モジュールとして扱う人が多いでしょう。そこで、できることは、データファイルとそういったファイルを読み込む関数またはモジュールの操作方法を分かりやすくドキュメントにまとめることです。それがあなたのプロジェクトをメンテナンスしてくれる、ダウンストリームのメンテナたちを助けることになります。
+そう、それはおかしな事です。私たちは、この問題を Python 3.3 で修正しました。しかし、この問題を解決できたとしても、最も移植性の高い方法として、データファイルを Python モジュールとして扱う人が多いでしょう。そこでできることは、データファイルとそういったファイルを読み込む関数またはモジュールの操作方法を分かりやすくドキュメントにまとめることです。それがあなたのプロジェクトをメンテナンスしてくれる、後を引き継ぐメンテナたちを助けることになります。
 
 .. _Fetchez le Python: http://tarekziade.wordpress.com/
-.. _Python プロジェクトをパッケージングする5つの Tips: http://tarekziade.wordpress.com/2011/08/19/5-tips-for-packaging-your-python-projects/
-.. _Pycon Japan: http://2011.pycon.jp/english-information
+.. _PyCon JP: http://2011.pycon.jp/english-information
 .. _PEP 386: http://www.python.org/dev/peps/pep-0386/
 .. _Metadata 1.2: http://www.python.org/dev/peps/pep-0345/
+
