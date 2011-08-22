@@ -63,16 +63,7 @@ Tip #1 -- `PEP 386`_ 準拠のバージョン体系にする
     packages yet. But that's going to be the default in Python 3.3 and
     distutils2.
 
-PyPI は、このポリシーに準拠しない全ての `Metadata 1.2`_ プロジェクトを排除しました。しかし、これまで Metadata 1.2 対応のパッケージ作成ツールが全くなかったため、この事実は一般にはあまり知られていません。ところが、このプロジェクトは Python 3.3 と distutils2 において標準になろうとしています。
-
-.. warning::
-
-   上記の原文および翻訳に違和感が。 ``PyPI already rejects any Metadata 1.2
-   project`` の1文で言っている「reject」の対象がよくわかりません。
-
-   * PEP386 に違反している Metadata 1.2 対応ツール?
-   * Metadata 1.2 を独自に実装したもの?(後半でツール無い書いてるのでこれは無い)
-   * その他?
+PyPI は既に `PEP 386`_ に準拠しない `Metadata 1.2`_ プロジェクトを受け付けないようになっています。これまで Metadata 1.2 対応のパッケージ作成ツールは一つもなかったため、この事実は一般にはあまり知られていません。今後、 Python 3.3 と distutils2 では PEP 386 準拠の Metadata 1.2 対応が標準となります。
 
 ..
     So long "devdevdev123" and "3765-2011-test" versions !
