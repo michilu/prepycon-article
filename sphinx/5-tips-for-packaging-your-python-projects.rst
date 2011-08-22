@@ -13,7 +13,7 @@ August 19, 2011 4:05 pm
 Python プロジェクトをパッケージングする5つの Tips
 =================================================
 
-  この文書はTarekが自身のブログ `Fetchez le Python`_ に書いたものを森本さんが訳したものだよ。みたいな説明文を追加
+  この文書はTarekが自身のブログ `Fetchez le Python`_ に書いたものを PyCon JP 運営チームが訳したものだよ。みたいな説明文を追加
 
   原文: `5 tips for packaging your Python projects <http://tarekziade.wordpress.com/2011/08/19/5-tips-for-packaging-your-python-projects/>`_
 
