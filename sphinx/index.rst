@@ -25,6 +25,8 @@ Contents:
    authors
    5-tips-for-packaging-your-python-projects
 
+   5-tips-for-packaging-your-python-projects
+
 Indices and tables
 ==================
 
